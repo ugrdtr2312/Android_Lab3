@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="authors_array">
+        <item></item>
+        <item>Scott Fitzgerald</item>
+        <item>Harper Lee</item>
+        <item>Jane Austen</item>
+        <item>Truman Capote</item>
+        <item>Jean Rhys</item>
+    </string-array>
+</resources>
