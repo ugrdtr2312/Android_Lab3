@@ -16,14 +16,6 @@ class FragmentResult : Fragment() {
     }
 
     fun setSelectedItem(selectedItem: String?) {
-        var db = DatabaseHandler(requireContext())
-        var data = db.readBooks()
-        var result = ""
-
-        for (i in 0 until data.size){
-            result += data[i].id.toString() + " " + data[i].author + " " + data[i].publishedIn + "\n"
-        }
-
         val view = view?.findViewById<TextView>(R.id.textFinal)
         view?.text = selectedItem
     }
